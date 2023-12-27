@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="BECI NSPEC Webapp">
+    <parameter name="testData" value="${testData}"/>
+    <parameter name="browser" value="${browser}"/>
+
+    <listeners>
+        <listener class-name="in.codeforz.listener.TextReporter"/>
+    </listeners>
+
+    <test name="BECI Functional">
+        <classes>
+            <class name="in.codeforz.web.project.VerifyProject"></class>
+        </classes>
+    </test>
+</suite>

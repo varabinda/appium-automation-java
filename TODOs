@@ -1,0 +1,11 @@
+1. Move all the utils method of utils pkg, make util a singleton
+    - inputText() <- duplicate in Project and CreateNewProject
+    - selectFromDropdown() - refactor to utils
+    - clickOnMenu() <- duplicate in Project & Home
+    - duplicate header buttons on different interfaces
+        - Project, Home, ...
+2. Add faker library for test data generation
+3. Add video capture library for failed test scenarios
+4. Code refactoring
+5. Test on other browsers - Safari, Edge...
+6. Improve synchronisation between test & webpage

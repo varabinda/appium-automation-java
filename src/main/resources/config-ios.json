@@ -1,0 +1,47 @@
+{
+  "cloud": {
+    "ios": {
+      "app": {
+        "bundleId": "com.beci.inspect",
+        "path": "./builds/application-c72ecbb4-f6e7-4998-be32-3986630b2b91.ipa"
+      },
+      "targets": [
+        {
+          "deviceName": "iPhone 11",
+          "platformVersion": "16"
+        }
+      ],
+      "server": {
+        "url": "http://hub.browserstack.com/",
+        "userName": "<<user_name>>",
+        "accessKey": "<<access_key>>",
+        "uploadApi" : "https://api-cloud.browserstack.com/app-automate/upload"
+      },
+      "project" : {
+        "AUTName": "Nspec App Test Automation",
+        "AUTBuild": "Nspec {{build}}",
+        "testName": "iOS Nspec Test {{timestamp}}"
+      }
+    }
+  },
+  "local": {
+    "ios": {
+      "app": {
+        "bundleId": "com.beci.inspect",
+        "path": "./builds/ios/application-dad4eb73-f453-41e8-9ff1-f7caf44c3109.ipa"
+      },
+      "targets": [
+        {
+          "deviceName": "iPad-9",
+          "platformVersion": "16"
+        }
+      ],
+      "server": {
+        "url": "http://127.0.0.1:4723/wd/hub",
+        "automationName": "XCUITest",
+        "launchTimeout": 120000,
+        "commandTimeout": 12000
+      }
+    }
+  }
+}

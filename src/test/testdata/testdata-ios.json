@@ -1,6 +1,6 @@
 {
   "login-details": {
-    "username": "becitesters@gmail.com",
-    "password": "SuperSecure123!"
+    "username": "<<username>>",
+    "password": "<<password>>"
   }
 }

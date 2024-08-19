@@ -1,8 +1,8 @@
 {
-  "url": "https://dev-inspect-app.nspec.app/",
+  "url": "<<website_url>>",
   "login-details": {
-    "username": "becitesters@gmail.com",
-    "password": "SuperSecure123!"
+    "username": "<<username>>",
+    "password": "<<passwrod>>"
   },
   "browser": "chrome"
 }

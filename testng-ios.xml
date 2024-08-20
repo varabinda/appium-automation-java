@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="BECI NSPEC iOS App">
+<suite name="iOS App">
     <parameter name = "testData" value="${testData}"/>
     <parameter name = "target" value="${target}"/>
 
@@ -7,7 +7,7 @@
         <listener class-name="in.codeforz.listener.TextReporter"/>
     </listeners>
 
-    <test name="BECI Functional">
+    <test name="Functional">
         <classes>
             <class name="in.codeforz.mobile.project.VerifyProject"></class>
         </classes>

@@ -2,7 +2,7 @@
   "url": "<<website_url>>",
   "login-details": {
     "username": "<<username>>",
-    "password": "<<passwrod>>"
+    "password": "<<password>>"
   },
   "browser": "chrome"
 }

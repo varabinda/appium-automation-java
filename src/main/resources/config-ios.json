@@ -2,8 +2,8 @@
   "cloud": {
     "ios": {
       "app": {
-        "bundleId": "com.beci.inspect",
-        "path": "./builds/application-c72ecbb4-f6e7-4998-be32-3986630b2b91.ipa"
+        "bundleId": "<<bundle_id>>",
+        "path": "./builds/<<_file_with_path>>"
       },
       "targets": [
         {
@@ -18,17 +18,17 @@
         "uploadApi" : "https://api-cloud.browserstack.com/app-automate/upload"
       },
       "project" : {
-        "AUTName": "Nspec App Test Automation",
-        "AUTBuild": "Nspec {{build}}",
-        "testName": "iOS Nspec Test {{timestamp}}"
+        "AUTName": "App Test Automation",
+        "AUTBuild": "App {{build}}",
+        "testName": "iOS App Test {{timestamp}}"
       }
     }
   },
   "local": {
     "ios": {
       "app": {
-        "bundleId": "com.beci.inspect",
-        "path": "./builds/ios/application-dad4eb73-f453-41e8-9ff1-f7caf44c3109.ipa"
+        "bundleId": "<<bundle_id>>",
+        "path": "./builds/ios/<<_file_with_path>>"
       },
       "targets": [
         {
